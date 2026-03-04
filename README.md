@@ -8,7 +8,7 @@ tippitytappity is a program to practice typing
 ```mermaid
 classDiagram
 Testing your accuracy and speed
-User "1" *-- "*" TestResult : has a history of
+Users "1" *-- "*" TestResult : has a history of
 TypingSession ..> TestResult : creates a
 TypingSession --> RandomPhraseGenerator : uses
   class Users{
