@@ -8,7 +8,8 @@ tippitytappity is a program to practice typing
 ```mermaid
 classDiagram
 Testing your accuracy and speed
-TestResult <|--- TypingSession <|--- RandomPhraseGenerator
+TestResult <|-- TypingSession : Inheritance
+TypingSession <|-- RandomPhraseGenerator : Inheritance
   class TestResult{
         - wpm: float
         - accuracy: float
